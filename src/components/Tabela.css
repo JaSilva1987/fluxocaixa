@@ -1,0 +1,93 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    background: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 999;
+    transition: transform 0.3s ease;
+  }
+  
+  .modal.open {
+    transform: translateX(0);
+  }
+  
+  .modal button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    border: none;
+    cursor: pointer;
+  }
+
+  .modal-botao{
+    color: red;
+    display: flex;
+    background-color: transparent;
+    border: 1px solid red;
+  }
+
+  .table-container {
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+
+.cadastro-button {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #45a049;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .cadastro-button:hover {
+    background-color: #2d87c2;
+  }
+
+  .relatorio-button {
+    position: absolute;
+    top: 20px;
+    right: 160px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #45a049;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .relatorio-button:hover {
+    background-color: #1d5b8a; 
+  }
+  

@@ -1,0 +1,58 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto; 
+    padding: 10px;
+  }
+  
+  .campo {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .div-botao{
+    display: flex !important;
+    justify-content: flex-end;
+  }
+  
+  .botao-inserir {
+    background-color: #4caf50;
+    color: white !important;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .botao-inserir:hover {
+    background-color: #2d87c2;
+  }
+
+  .input-style {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .select-style {
+    width: 105%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

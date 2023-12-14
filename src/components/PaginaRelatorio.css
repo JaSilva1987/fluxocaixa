@@ -1,0 +1,55 @@
+.table-container {
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .table tfoot td {
+    font-weight: bold;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+  }
+  
+  .print-button,
+  .close-button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #45a049;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  .print-button:hover,
+  .close-button:hover {
+    background-color: #2d87c2;
+  }
+  
+  .buttons-container svg {
+    margin-right: 5px;
+  }
+  
